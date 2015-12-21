@@ -67,9 +67,13 @@ a img{
 
 .android-logo-image {
   height: 28px;
-  width: 140px;
+  width: 120px;
 }
 
+.kpacitor-logo-image {
+  height: auto;
+  width: 150px;
+}
 
 .android-header {
   overflow: visible;
@@ -507,6 +511,11 @@ a img{
     display: none;
   }
 
+  .kpacitor-logo-image {
+    height: auto;
+    width: 100px;
+  }
+
   .android-title {
     display: none !important;
   }
@@ -577,10 +586,4 @@ a img{
   .android-footer .mdl-mega-footer--bottom-section {
     display: none;
   }
-}
-
-
-.kpacitor-logo-image {
-  height: auto;
-  width: 150px;
 }
