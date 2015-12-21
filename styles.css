@@ -556,13 +556,13 @@ a img{
   .android-slogan {
     font-size: 26px;
     margin: 0 16px;
-    padding-top: 24px;
+    padding-top: 40px;
   }
 
   .android-sub-slogan {
-    font-size: 16px;
+    font-size: 12px;
     margin: 0 16px;
-    padding-top: 8px;
+    padding-top: 40px;
   }
 
   .android-create-character {
