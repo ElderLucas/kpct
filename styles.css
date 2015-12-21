@@ -47,13 +47,17 @@ a img{
   width: auto;
 }
 
+
+/*
+  Botao que fica entre a primeira e a segunda sessao para chamar a lista dos cursos em destaque
+*/
 .android-fab {
   position: absolute;
-  right: 20%;
+  right: 10%;
   bottom: -26px;
   z-index: 3;
-  background: #64ffda !important;
-  color: black !important;
+  background: #6ab344 !important;
+  color: white !important;
 }
 
 .android-mobile-title {
@@ -154,7 +158,7 @@ a img{
     margin-right: 16px;
   }
 
-  .android-more-button {
+  .mdl-button {
     -webkit-box-ordinal-group: 4;
     -webkit-order: 3;
         -ms-flex-order: 3;
@@ -195,7 +199,7 @@ a img{
 
 .android-be-together-section {
   position: relative;
-  height: 800px;
+  height: 500px;
   width: auto;
   background-color: #f3f3f3;
   background: url('images/slide01.jpg') center 30% no-repeat;
@@ -205,10 +209,10 @@ a img{
 
 .kpacitor-middle-section {
   position: relative;
-  height: 700px;
+  height: auto;
   width: auto;
   background-color: #f3f3f3;
-  background: url('images/KpacitorCover-AllTech-small.png') center 30% no-repeat;
+  background: url('images/KpacitorCover-AllTech-small-wide.png') center 30% no-repeat;
   background-size: cover;
 }
 
