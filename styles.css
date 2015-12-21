@@ -29,7 +29,7 @@ a img{
 }
 
 ::selection {
-  background-color: #6ab344;
+  background-color: #CCCCCC;
   color: #fff;
 }
 
@@ -126,7 +126,23 @@ a img{
   }
 
     .android-navigation .mdl-navigation__link:hover {
-      border-bottom: 4px solid #8bc34a;
+      border-bottom: 4px solid #ffed00;
+    }
+
+    .android-navigation .mdl-navigation__link_raspberrypi:hover {
+      border-bottom: 4px solid #c61931;
+    }
+
+    .android-navigation .mdl-navigation__link_android:hover {
+      border-bottom: 4px solid #6ab344;
+    }
+
+    .android-navigation .mdl-navigation__link_arduino:hover {
+      border-bottom: 4px solid #00979C;
+    }
+
+    .android-navigation .mdl-navigation__link_python:hover {
+      border-bottom: 4px solid #6a6a6a;
     }
 
   .android-search-box {
@@ -162,7 +178,7 @@ a img{
   }
 
   .android-drawer span.mdl-navigation__link.mdl-navigation__link {
-    color: #8bc34a;
+    color: #ffed00;
   }
 
   .android-drawer .mdl-layout-title {
@@ -176,12 +192,23 @@ a img{
       bottom: 16px;
     }
 
+
 .android-be-together-section {
   position: relative;
   height: 800px;
   width: auto;
   background-color: #f3f3f3;
   background: url('images/slide01.jpg') center 30% no-repeat;
+  background: url('images/KpacitorCover-AllTech-small.png') center 30% no-repeat;
+  background-size: cover;
+}
+
+.kpacitor-middle-section {
+  position: relative;
+  height: 700px;
+  width: auto;
+  background-color: #f3f3f3;
+  background: url('images/KpacitorCover-AllTech-small.png') center 30% no-repeat;
   background-size: cover;
 }
 
@@ -546,4 +573,10 @@ a img{
   .android-footer .mdl-mega-footer--bottom-section {
     display: none;
   }
+}
+
+
+.kpacitor-logo-image {
+  height: auto;
+  width: 150px;
 }
